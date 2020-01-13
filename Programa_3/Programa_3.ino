@@ -18,7 +18,7 @@ const int led4 = 9;          // donar nom al pin 9 de l’Arduino
 const int led5 = 10;         // donar nom al pin 10 de l’Arduino
 const int led6 = 11;         // donar nom al pin 11 de l’Arduino
 const int led7 = 12;         // donar nom al pin 12 de l’Arduino
-int estatbutton;
+int estatbutton1;
 //********** Setup ****************************************************************
 void setup()
 {
@@ -38,9 +38,9 @@ void loop()
 {
  
 
-  estatbutton=digitalRead (button);
+  estatbutton1=digitalRead (button);
 
-  if (estatbutton == 0)
+  if (estatbutton1 == 0)
   {
   digitalWrite(led0, HIGH);    // posar a 5V el pin 5
   digitalWrite(led1, LOW);    // posar a 5V el pin 6
